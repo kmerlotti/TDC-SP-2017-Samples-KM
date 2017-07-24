@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E6F1EDE8-7707-48AE-8D27-AEECB0102B3E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DataTypeUnification\DataTypeUnification.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ExceptionsUnified\ExceptionsUnified.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MongoDBDesktop\MongoDBDesktopSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CData.Excel\CDataExcel.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="LocalSQL\LocalSQL.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DataTypeUnification">
+        <MSBuild Projects="DataTypeUnification\DataTypeUnification.dproj"/>
+    </Target>
+    <Target Name="DataTypeUnification:Clean">
+        <MSBuild Projects="DataTypeUnification\DataTypeUnification.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataTypeUnification:Make">
+        <MSBuild Projects="DataTypeUnification\DataTypeUnification.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ExceptionsUnified">
+        <MSBuild Projects="ExceptionsUnified\ExceptionsUnified.dproj"/>
+    </Target>
+    <Target Name="ExceptionsUnified:Clean">
+        <MSBuild Projects="ExceptionsUnified\ExceptionsUnified.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExceptionsUnified:Make">
+        <MSBuild Projects="ExceptionsUnified\ExceptionsUnified.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MongoDBDesktopSample">
+        <MSBuild Projects="MongoDBDesktop\MongoDBDesktopSample.dproj"/>
+    </Target>
+    <Target Name="MongoDBDesktopSample:Clean">
+        <MSBuild Projects="MongoDBDesktop\MongoDBDesktopSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MongoDBDesktopSample:Make">
+        <MSBuild Projects="MongoDBDesktop\MongoDBDesktopSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CDataExcel">
+        <MSBuild Projects="CData.Excel\CDataExcel.dproj"/>
+    </Target>
+    <Target Name="CDataExcel:Clean">
+        <MSBuild Projects="CData.Excel\CDataExcel.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CDataExcel:Make">
+        <MSBuild Projects="CData.Excel\CDataExcel.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LocalSQL">
+        <MSBuild Projects="LocalSQL\LocalSQL.dproj"/>
+    </Target>
+    <Target Name="LocalSQL:Clean">
+        <MSBuild Projects="LocalSQL\LocalSQL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LocalSQL:Make">
+        <MSBuild Projects="LocalSQL\LocalSQL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DataTypeUnification;ExceptionsUnified;MongoDBDesktopSample;CDataExcel;LocalSQL"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DataTypeUnification:Clean;ExceptionsUnified:Clean;MongoDBDesktopSample:Clean;CDataExcel:Clean;LocalSQL:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DataTypeUnification:Make;ExceptionsUnified:Make;MongoDBDesktopSample:Make;CDataExcel:Make;LocalSQL:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

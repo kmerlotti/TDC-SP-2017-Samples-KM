@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/05/26 10:36:56.000.251,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2017/05/26 15:37:38.000.288,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2017/05/29 18:26:42.000.311,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\GroupedItems1.pas</Transaction>
+    <Transaction>2017/05/29 18:26:49.000.742,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ItemDetail1.pas</Transaction>
+    <Transaction>2017/07/20 10:44:22.000.387,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2017/07/20 10:56:25.000.672,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit4.dfm=C:\Users\Kelver\Desktop\tdc2017\Exemplos\CData.Excel\Unit4.dfm</Transaction>
+    <Transaction>2017/07/20 10:56:25.000.672,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit4.pas=C:\Users\Kelver\Desktop\tdc2017\Exemplos\CData.Excel\Unit4.pas</Transaction>
+    <Transaction>2017/07/20 10:56:42.000.204,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Kelver\Desktop\tdc2017\Exemplos\CData.Excel\CDataExcel.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

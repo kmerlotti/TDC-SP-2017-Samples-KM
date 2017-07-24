@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/03/28 13:28:57.000.370,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/04 16:12:13.000.613,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/05 15:31:06.000.265,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas=\\vmware-host\Shared Folders\D\Serviços\Vikings\Testes\MongoDB\DesktopSample\uPrincipal.pas</Transaction>
+    <Transaction>2016/04/05 15:31:06.000.265,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.dfm=\\vmware-host\Shared Folders\D\Serviços\Vikings\Testes\MongoDB\DesktopSample\uPrincipal.dfm</Transaction>
+    <Transaction>2016/04/05 15:31:15.000.568,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Project1.dproj=\\vmware-host\Shared Folders\D\Serviços\Vikings\Testes\MongoDB\DesktopSample\MongoDBDesktopSample.dproj</Transaction>
+    <Transaction>2016/04/11 11:38:02.000.439,=\\vmware-host\Shared Folders\D\Serviços\Vikings\Testes\MongoDB\DesktopSample\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2016/04/11 11:38:06.000.567,=\\vmware-host\Shared Folders\D\Serviços\Vikings\Testes\MongoDB\DesktopSample\ClientModuleUnit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
